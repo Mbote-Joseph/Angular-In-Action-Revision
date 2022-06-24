@@ -17,7 +17,22 @@ nav {
   background: #ee6e73;
   height: 70px;
   padding: 20px;
+  display: flex;
+  justify-content: space-between;
 }
 .navbar {
   color: #ffffff;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+}
+
+a {
+  color: #ffffff;
+  text-decoration: none;
+  margin-left: 20px;
+  font-size: 20px;
 }
